@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "53217251799",
+    "firebase_url": "https://er-app-3756f.firebaseio.com",
+    "project_id": "er-app-3756f",
+    "storage_bucket": "er-app-3756f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:53217251799:android:51985df8d37d3df0",
+        "android_client_info": {
+          "package_name": "com.androidclass.bhupen.emergencycallingapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "53217251799-k9cov4m4m5oii8fj4m5a2c0ge33aa2u9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAlFizfxUS-ChBW7DXVLZ56CwjQJ4TnB2g"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
