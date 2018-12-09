@@ -57,7 +57,6 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        //Randy. MainActivity.java is the page that shows directly after you log in.
         findViewById(R.id.update_personal_information).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {

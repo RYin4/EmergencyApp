@@ -13,6 +13,8 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         android:name=".UpdateInfoActivityHelper">
+
+
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -24,7 +26,7 @@
         <activity android:name=".RegisterActivity" />
         <activity android:name=".ForgetAndChangePasswordActivity" />
         <activity android:name=".UpdateInfoActivity" />
-
+        <activity android:name=".NewUserActivity" />
 
     </application>
 
