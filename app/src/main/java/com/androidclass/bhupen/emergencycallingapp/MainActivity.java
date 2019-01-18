@@ -57,16 +57,17 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        findViewById(R.id.update_personal_information).setOnClickListener(new View.OnClickListener() {
+        findViewById(R.id.home_page).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(getApplicationContext(), UpdateInfoActivity.class).putExtra("Mode", 4));
+                startActivity(new Intent(getApplicationContext(), MainPageActivity.class).putExtra("Mode", 4));
             }
         });
 
 
         findViewById(R.id.change_email_button).setOnClickListener(new View.OnClickListener() {
-            @Override            public void onClick(View view) {
+            @Override
+            public void onClick(View view) {
                 startActivity(new Intent(getApplicationContext(), ForgetAndChangePasswordActivity.class).putExtra("Mode", 2));
             }
         });
