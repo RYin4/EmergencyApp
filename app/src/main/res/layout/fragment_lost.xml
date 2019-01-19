@@ -1,6 +1,36 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout
-    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
-    android:layout_height="match_parent">
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LostFragment"
+    android:background="@drawable/emergency_sign">
 
+
+    <Button
+        android:id="@+id/findhome"
+        android:layout_width="320dp"
+        android:layout_height="120dp"
+        android:background="@color/design_default_color_primary_dark"
+        android:textColor="@color/white"
+        android:text="Find Way Home"
+        app:layout_constraintBottom_toTopOf="@+id/losttextcontact"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/losttextcontact"
+        android:layout_width="320dp"
+        android:layout_height="120dp"
+        android:background="@color/design_default_color_primary_dark"
+        android:textColor="@color/white"
+        android:text="Text Emergency Contact"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/findhome" />
 </android.support.constraint.ConstraintLayout>
