@@ -4,7 +4,8 @@ Note: We went ahead and removed the google-json.js file and the key.xml file
 
 ### Purpose
 To provide users with assistance during emergency situations such as: <br/>
-- **Lost** – Navigate the user to the nearest hospital or home from current location. Option to text emergency contact current location. 
+- **Lost** – Navigate the user to the nearest hospital or home from current location. 
+  - Option to text emergency contact current location. 
 - **Accident** – Allow user to call / text emergency contact and / or emergency services 
 - **Natural Disasters** – Provide users with safety information for earthquakes, tornado, etc 
 - **Intoxicated** – Provide user with UBER / LYFT option with listed price to return home 
