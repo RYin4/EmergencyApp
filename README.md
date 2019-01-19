@@ -26,6 +26,8 @@ To provide users with assistance during emergency situations such as: <br/>
 - **Update Information** – Change personal information, password , email, delete profile
 - **Homepage** - Current location with nearby hospital in 10 miles radius.
   - In navigation , number of emergencies are listed, such as: lost , accident, natural disasters and if you are intoxicated.  
+  
+  ![Philadelphia's Magic Gardens. This place was so cool!](/desktop/EmergencyAppPreview.jpg "Emergency App")
     
 
 
