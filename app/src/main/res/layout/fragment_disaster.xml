@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DisasterFragment"
+    android:background="@drawable/emergency_sign">
+
+    <Button
+        android:id="@+id/blizzard"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Blizzard"
+        android:background="@color/design_default_color_primary_dark"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toTopOf="@+id/earthquake"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/earthquake"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Earthquake"
+        android:background="@color/design_default_color_primary_dark"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toTopOf="@+id/hurricane"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/blizzard" />
+
+    <Button
+        android:id="@+id/hurricane"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Hurricane"
+        android:background="@color/design_default_color_primary_dark"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toTopOf="@+id/tornado"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/earthquake" />
+
+    <Button
+        android:id="@+id/tornado"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Tornado"
+        android:background="@color/design_default_color_primary_dark"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toTopOf="@+id/tsunami"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/hurricane" />
+
+    <Button
+        android:id="@+id/tsunami"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Tsunami"
+        android:background="@color/design_default_color_primary_dark"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toTopOf="@+id/volcano"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tornado" />
+
+    <Button
+        android:id="@+id/volcano"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:text="Volcano"
+        android:background="@color/design_default_color_primary_dark"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tsunami" />
+
+</android.support.constraint.ConstraintLayout>
