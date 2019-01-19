@@ -29,7 +29,12 @@ To provide users with assistance during emergency situations such as: <br/>
   
 ### Screen Shots
   
-  ![Philadelphia's Magic Gardens. This place was so cool!](https://github.com/RYin4/EmergencyApp/blob/ryin4/app/src/main/res/drawable/EmergencyAppPreview.PNG "Emergency App")
+  ![EmergencyApp!](https://github.com/RYin4/EmergencyApp/blob/ryin4/app/src/main/res/drawable/EmergencyAppPreview.PNG "Emergency App")
+  
+  ![EmergencyApp!](https://github.com/RYin4/EmergencyApp/blob/ryin4/app/src/main/res/drawable/EmergencyAppPreview2.PNG "Emergency App")   ![EmergencyApp!](https://github.com/RYin4/EmergencyApp/blob/ryin4/app/src/main/res/drawable/EmergencyAppPreview3.PNG "Emergency App")
+
+
+  
     
 
 
