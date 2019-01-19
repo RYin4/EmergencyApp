@@ -27,6 +27,8 @@ To provide users with assistance during emergency situations such as: <br/>
 - **Homepage** - Current location with nearby hospital in 10 miles radius.
   - In navigation , number of emergencies are listed, such as: lost , accident, natural disasters and if you are intoxicated.  
   
+### Screen Shots
+  
   ![Philadelphia's Magic Gardens. This place was so cool!](https://github.com/RYin4/EmergencyApp/blob/ryin4/app/src/main/res/drawable/EmergencyAppPreview.PNG "Emergency App")
     
 
