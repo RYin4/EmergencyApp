@@ -86,4 +86,3 @@
         android:text="Sign In"
         android:textColor="@color/white" />
 </LinearLayout>
-
