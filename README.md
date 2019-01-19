@@ -1,6 +1,6 @@
 # Android Emergency Mobile Application
 
-Note: We went ahead and removed the google-json.js file and the key.xml file
+Note: Removed the google-json.js file and the key.xml file
 
 ### Purpose
 To provide users with assistance during emergency situations such as: <br/>
